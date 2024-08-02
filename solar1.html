@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    div{
+    width: 100%;
+    height:2000px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    #plan8{
+        height: 1800px;
+        width: 1800px;
+        border: 2px solid beige;
+        border-radius: 50%;
+        animation: rot8 10s linear 0s infinite normal ;
+    }
+    @keyframes rot8{
+        from{
+
+        }
+        to{
+transform: rotate(360deg);
+        }
+
+    }
+    #planet8{
+        height: 180px;
+        width: 180px;
+        border: 2px solid beige;
+        border-radius: 50%;
+        position: absolute;
+      top: 1694px;
+      background-color: aquamarine;
+    }
+
+
+
+
+
+
+
+    #plan7{
+        height: 1400px;
+        width: 1400px;
+        border: 2px solid beige;
+        border-radius: 50%;
+        animation: rot7 5s linear 0s infinite normal ;
+    }
+    @keyframes rot7{
+        from{
+
+        }
+        to{
+transform: rotate(360deg);
+        }
+
+    }
+    #planet7{
+        height: 180px;
+        width: 180px;
+        border: 2px solid beige;
+        border-radius: 50%;
+        position: absolute;
+      top: 1300px;
+      background-color: aquamarine;
+    }
+    #sun{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+
+</style>
+<body>
+    <div id="solar">
+        <div id="plan8">
+            <div id="plan7">
+                <div id="sun"></div>
+                <div id="planet7"></div>
+    
+            </div>
+    
+
+            <div id="planet8"></div>
+
+        </div>
+
+    </div>
+</body>
+</html>
